@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$("document").ready(function(){
     console.log("ready!")
-    $(".button").onclick(function(){
+    $(".button").click(function(){
         $("h1").fadeToggle()
     })
 })
